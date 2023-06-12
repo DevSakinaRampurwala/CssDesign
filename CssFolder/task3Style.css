@@ -1,0 +1,29 @@
+/* Task 3 CSS */
+table,
+th,
+td {
+    border: 0.2px solid white;
+}
+.mainSection > table thead tr th{
+    background-color: #333;
+    color: white;
+    padding: 5px;
+}
+.mainSection > table tbody tr .marketingDiv{
+    background-color: lightskyblue;
+}
+
+caption{
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.mainSection > table tbody .marketingDiv{
+    background-color: #89c2e6;
+}
+.mainSection > table tbody .salesDiv{
+    background-color: aquamarine;
+}
+.mainSection > table tbody .productDiv{
+    background-color: palevioletred;
+}

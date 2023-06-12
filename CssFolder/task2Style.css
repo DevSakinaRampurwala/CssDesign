@@ -1,0 +1,79 @@
+
+.mainBox {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    position: absolute;
+    padding: 10px;
+}
+
+.boxItem {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+
+}
+
+.subCircle1,
+.subCircle2,
+.subCircle3,
+.subCircle4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100% 0px;
+
+
+}
+
+.subCircle1 {
+    right: 0px;
+    bottom: 0px;
+    transform: rotate(1deg);
+    background-color: white;
+
+}
+
+.subCircle2 {
+    transform: rotate(90deg);
+    left: 0px;
+    bottom: 0px;
+    background-color: darkblue;
+
+}
+
+.subCircle3 {
+    top: 0px;
+    right: 0px;
+    transform: rotate(-90deg);
+    background-color: orangered;
+
+
+}
+
+.subCircle4 {
+    transform: rotate(1deg);
+    background-color: darkgray;
+}
+
+.item1 {
+    background-color: orangered;
+
+}
+
+.item2 {
+    background-color: white;
+}
+
+.item3 {
+    background-color: darkgray;
+
+}
+
+.item4 {
+    background-color: darkblue;
+
+}
+
